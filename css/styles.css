@@ -83,7 +83,13 @@ a {
 .profile {
     margin: 10px auto 10px auto;
     position: relative;
-    width: 50%;
+    width: 75%;
+}
+
+.contact-me {
+    margin: 10px auto 10px auto;
+    position: relative;
+    width: 75%;
 }
 
 .body {
