@@ -126,6 +126,7 @@ a {
 }
 
 /* Button CSS */
+/*
 .btn {
     background: #064420;
     background-image: -webkit-linear-gradient(top, #064420, #125f32);
@@ -166,3 +167,21 @@ a {
     color:antiquewhite;
     text-decoration: none;
  }
+ */
+
+ .btn {
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    font-family: Georgia;
+    color: #FAF1E6;
+    font-size: 20px;
+    background: #125f32;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #064420;
+    text-decoration: none;
+  }
