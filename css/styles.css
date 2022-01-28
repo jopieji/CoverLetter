@@ -115,7 +115,26 @@ a {
 .top-container {
     background-color: #f5f5f5;
     position: relative;
-    padding-top: 100px;
+}
+
+.svg2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.svg2 svg {
+    position: relative;
+    display: block;
+    width: calc(150% + 1.3px);
+    height: 150px;
+}
+
+.svg2 .shape-fill {
+    fill: #064420;
 }
 
 .middle-container {
@@ -125,20 +144,7 @@ a {
 }
 
 .bottom-container {
-    background-color: #064420;
     position: relative;
-}
-
-.top-cloud {
-    position: absolute;
-    right: 300px;
-    top: 50px
-}
-
-.bottom-cloud {
-    position: absolute;
-    left: 300px;
-    bottom: 300px
 }
 
  .btn {
@@ -157,3 +163,40 @@ a {
     background: #064420;
     text-decoration: none;
   }
+
+  .link {
+      color: #064420;
+      font-family: 'Roboto', sans-serif;
+      position:relative;
+      top:0;
+      width:100%;
+      text-decoration: none;
+      padding: 10px;
+      font-size: 20px;
+  }
+  
+  .link:hover {
+      color:#125f32;
+  }
+
+  /* BOT SVG */
+  .svgbot {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.svgbot svg {
+    position: relative;
+    display: block;
+    width: calc(150% + 1.3px);
+    height: 150px;
+}
+
+.svgbot .shape-fill {
+    fill: #064420;
+}
